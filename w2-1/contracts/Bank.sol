@@ -14,4 +14,6 @@ contract Bank {
         payable(msg.sender).transfer(balance[msg.sender]);
         delete balance[msg.sender];
     }
+
+    
 }
